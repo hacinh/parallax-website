@@ -1,0 +1,123 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+
+/* ---- IMAGE 1,2,3 ---- */
+
+.hero-section {
+    height: 100vh;
+    background-image: url(/parallax-website/img/image1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5px;
+    opacity: 0.7;
+    position: relative;
+
+    
+}
+
+
+.img-2 {
+
+    background-image: url(/parallax-website/img/image2.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    position: relative;
+   
+}
+
+.img-3 {
+
+    background-image: url(/parallax-website/img/image3.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    position: relative;
+}
+
+
+
+/* ---- HERO HEADING ---- */
+
+
+.hero-heading {
+ 
+position: absolute;
+top: 50%;
+width: 100%;
+text-align: center;
+
+
+}
+
+
+.hero-txt-heading h1 {
+
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    display: inline;
+}
+
+/* ---- SECTION LIGHT ---- */
+
+
+.section-light {
+
+    padding: 20px;
+    line-height: 2em;
+ 
+}
+
+
+.section-hree-txt {
+ 
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    color: #fff;
+}
+
+
+
+.section-dark {
+
+    background-color: #282e34;
+    padding: 20px;
+    color: #ddd;
+    line-height: 2em;
+    
+}
+
+.img-3-text {
+
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    color: #fff;
+}
